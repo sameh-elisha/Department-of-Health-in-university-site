@@ -17,3 +17,6 @@ The department responsible for managing medical information for students, for th
 ![student_form](https://user-images.githubusercontent.com/67038060/148341787-39326072-1abc-42ab-809d-f24b130814a7.png)
 ![student_result](https://user-images.githubusercontent.com/67038060/148341825-12a6fc63-e9e6-4026-99c0-769ac7add296.png)
 # Employee
+
+![employee_verf_Student](https://user-images.githubusercontent.com/67038060/148342106-5555d6d2-80bf-4115-be4a-1f75eb25ca8e.png)
+![employee_Regis_Student](https://user-images.githubusercontent.com/67038060/148342119-f183e9ab-e395-4317-afbc-3c6a9e0b6308.png)
