@@ -1,0 +1,54 @@
+nav a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav button:hover {
+    background-color: green;
+}
+
+nav button {
+    font: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0px;
+    background-color: darkcyan;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    color: white;
+    transition: all .5s;
+}
+
+nav {
+    display: flex;
+    gap: 5px;
+}
+
+header {
+    background-color: rgb(10, 91, 122);
+}
+
+header .container {
+    width: 80%;
+    min-height: 8vh;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header .container .content {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

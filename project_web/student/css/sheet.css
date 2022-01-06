@@ -1,0 +1,97 @@
+:root {
+    --white: #ffff;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+.registration {
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: rgb(10, 91, 122, .5)
+}
+
+form {
+    width: 70%;
+    margin: auto;
+}
+
+form div {
+    margin-bottom: 30px;
+}
+
+form label {
+    font-size: 39px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px 50px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+form input {
+    padding: 10px 30px;
+    border: none;
+    font-size: 30px;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    margin-bottom: 30px;
+}
+
+form button {
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+}
+
+form button:hover {
+    background-color: green;
+}
+
+.registration-message {
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+input[type="text"] {
+    background-color: gray;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgb(84, 105, 212) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+body a {
+    color: white;
+    font-size: 20px;
+}
+
+form .medical-date label {
+    font-size: 20px;
+    text-align: center;
+}
+
+form .medical-date input {
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}

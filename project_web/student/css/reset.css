@@ -1,0 +1,28 @@
+:root {
+    --white: #ffff;
+    --blue: rgb(10, 91, 122);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    background-image: url(../images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    border: none;
+}

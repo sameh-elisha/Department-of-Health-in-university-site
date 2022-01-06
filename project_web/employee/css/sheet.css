@@ -1,0 +1,113 @@
+:root {
+    --white: #ffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    background-image: url(../images/background.jpeg);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(10, 91, 122);
+}
+
+header .container {
+    width: 80%;
+    min-height: 8vh;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header .container .content {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.registration {
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #454955;
+}
+
+form {
+    width: 70%;
+    margin: auto;
+}
+
+form div {
+    margin-bottom: 30px;
+}
+
+form label {
+    font-size: 39px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px 50px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+form input {
+    padding: 10px 30px;
+    border: none;
+    font-size: 30px;
+    outline-style: none;
+    border-color: transparent;
+    margin-bottom: 30px;
+}
+
+form button {
+    padding: 10px 30px;
+    font-size: 22px;
+    background-color: rgb(7, 13, 15);
+    color: whitesmoke;
+}
+
+.registration-message {
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input[type="text"] {
+    background-color: gray;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgb(84, 105, 212) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+body a {
+    color: white;
+    font-size: 20px;
+}
